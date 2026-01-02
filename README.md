@@ -17,7 +17,7 @@ The dataset used was from: *https://www.kaggle.com/datasets/raphaelwallsberger/x
 This software implements the agentic systems and tool extensions derived from the project requirements:
 
 ### 🔹 Agentic Systems
-* **Single Agent System**: Created only 1 Agent to logically respond to user's queries by handlinh simulateneously all tasks.
+* **Single Agent System**: Created only 1 Agent to logically respond to user's queries by handling simultaneously all tasks.
 * **Multi Agent (Supervisor System)**: Implemented 3 Agents: **Quality Agent**, **Wear Agent**, **Supervisor**. These 3 agents work together to respond to queries by specializing in only 1 part of the tasks needed. 
 
 
@@ -29,7 +29,7 @@ This software implements the agentic systems and tool extensions derived from th
 
 #### Tool 2: Quality of Drilling Tool
 * **Inputs**: Cooling rate [%] used in drilling process, feed rate, cutting speed and drill bit material.
-* **Outputs**: The tool also uses a decision tree algorithm with boosting to create different criteria for decision. With these creiteria, the tool is able to correctly predict if there will be Good or Bad quaity of drilling following the BEF and CCF data. More information inside Quality Tool folder.
+* **Outputs**: The tool also uses a decision tree algorithm with boosting to create different criteria for decision. With these criteria, the tool is able to correctly predict if there will be Good or Bad quality of drilling following the BEF and CCF data. More information inside Quality Tool folder.
 
 
 ## 📂 Project Structure
@@ -97,7 +97,7 @@ With this, all the packages are installed for the right usage of the repository.
 
 ### **Ollama and Langchain:**
 
-For developing the LLMs and Prompt Engineering, it is necesary to use Ollama's library. Some more documentation about how to install it and how to incorporate it with Langchain is available in the following links:
+For developing the LLMs and Prompt Engineering, it is necessary to use Ollama's library. Some more documentation about how to install it and how to incorporate it with Langchain is available in the following links:
 
 * https://ollama.com/
 
